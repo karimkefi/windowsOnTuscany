@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #d2d2d2;
+    font-family: Proxima-Regular, Arial, sans-serif;
+    color: #434647;
+}
+
+.container  {
+    width: 400px;
+}
+
+.topHeader {
+    height: 75px;
+    border: 1px solid black;
+}
+
+.headerLeft {
+    background-color: #4fb1a2;
+    height: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.headerRight{
+    background-color: #ffffff;
+    height: 100%;
+}
+
+
+.squareBox {
+    height: 400px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+squareBox:hover{
+    background-size: 550px 550px;
+    background-position: -50px -50px;
+}
+
+
+.bkgd1 {
+    background: url("assets/image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bkgd2 {
+    background: url("assets/image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bkgd3 {
+    background: url("assets/image3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bkgd4 {
+    background: url("assets/image4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bkgd5 {
+    background: url("assets/image5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.claim {
+    height: 85px;
+    background: rgba(192,195,195,0.7);
+    margin-top: 150px;
+    color: #8b0000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*  * * * * * * * * * * media queries = SMALL * * * * * * * * * */
+
+@media (max-width: 991px) and (min-width: 700px) {
+.container {
+    width: 640px;
+    }
+}
+
+/*  * * * * * * * * * * media queries = MEDIUM * * * * * * * * * */
+
+@media (min-width: 992px) {
+    .container {
+        width: 950px;
+    }
+}
+
+
+/*  * * * * * * * * * * media queries = MEDIUM * * * * * * * * * */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
